@@ -1,0 +1,369 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper {
+    overflow: hidden;
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    color: white !important;
+}
+
+.wrapper .banner {
+    background-color: rgba(0, 0, 0, 0.4);
+    background-image: url("images/banner-bg.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center, center;
+    /* / min-height: 100vh; / */
+}
+
+.wrapper .banner .container .header .bottomheader .row .col-3 {
+    padding-block: 2px;
+    border: none;
+}
+
+.wrapper .banner .container .header .bottomheader .row .col-3 img {
+    width: 65%;
+    background: white;
+    padding: 12px;
+}
+.wrapper .banner .container .header .bottomheader .col-9 nav li a{
+    color: darkgray;
+}
+.wrapper .banner .container .header .bottomheader .col-9 nav li:hover {
+    background-color: #80808094;
+}
+
+.wrapper .banner .container .header .topheader .row .col-9 b {
+    letter-spacing: 5px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+}
+
+.wrapper .banner .container .header .topheader .row .col-3 {
+    filter: brightness(1);
+    opacity: 0.6;
+}
+
+.wrapper .banner .container .header .topheader .row .col-3 input {
+    padding-block: 7px;
+    padding-inline: 12px;
+    border: none;
+    background-color: #767675;
+}
+
+.wrapper .banner .container .header .topheader .row .col-3 button {
+    border: none;
+    background-color: #767675;
+    padding: 7px;
+    position: absolute;
+}
+
+.wrapper .banner .container .header .topheader .row .col-3 input::placeholder {
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.wrapper .banner .container .container .banner-text {
+
+    text-align: center;
+}
+
+.wrapper .banner .container .container .banner-text h1 {
+    margin-top: 4rem;
+    font-weight: bold;
+    font-size: 58px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.wrapper .banner .container .container .banner-text h3 {
+    font-weight: bold;
+    margin-top: 25px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+}
+
+.wrapper main .container .row #oneclick {
+    background-color: red;
+    border: 1px solid;
+    padding-block: 6px;
+}
+
+.wrapper main .container .row {
+    list-style-type: none;
+}
+
+.wrapper main .container .row .col-6 li {
+    font-family: 'Oswald', sans-serif;
+    margin-left: 18px;
+}
+
+.wrapper main .container .container form .row .col-4 input,
+.wrapper main .container .container form .row .col-12 input {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.03);
+    border: none;
+}
+
+.wrapper main .container .container form .row .col-4 input::placeholder,
+.wrapper main .container .container form .row .col-12 input::placeholder {
+    color: black;
+}
+
+.wrapper main .container .container form .row input {
+    padding-block: 7px;
+    color: black !important;
+
+}
+
+.wrapper main .container .container form .row .col-9 label {
+    color: #757575;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+.wrapper main .container .container form .row .col-9 label strong {
+    color: red !important;
+}
+
+.wrapper main .container .container form .row {
+    margin-top: 1rem;
+}
+
+.wrapper main .container .container form .row .col-5 .btn {
+    background-color: #cc0008;
+    color: #fff;
+    border: none;
+    display: block;
+    font-family: "Lato", sans-serif;
+    border-radius: 0;
+    font-size: 13px;
+    padding: 10px 25px;
+}
+
+.wrapper main h1 {
+    font-size: 30px;
+}
+
+.wrapper main h1 {
+    color: black !important;
+    text-align: center;
+    font-size: 59px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+
+.wrapper main .container .row .col-4 .card .card-img-top {
+    width: 27%;
+    margin: auto;
+}
+
+.wrapper main .container .row .col-4 .card .card-body .card-text {
+    color: black !important;
+    text-align: center;
+}
+
+.wrapper main #card-container {
+    margin-block: 3rem;
+    padding-inline: 5rem;
+}
+
+.wrapper main #card-container .row {
+    margin-bottom: 1rem;
+}
+
+.wrapper main .container-fluid {
+    background-image: url("images/banner03.jpg");
+    position: relative;
+    height: 50vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center, center;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+    padding: 0;
+    margin: 50px 0;
+}
+.wrapper main .container-fluid .container{
+    max-width: 1185px;
+}
+.wrapper main .container-fluid .container h1{
+    min-height: 50vh;
+    color: #fff !important;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+
+}
+.wrapper main  .container .slider{
+    display: flex;
+    margin-top: 6rem;
+}
+.wrapper main  .container .slider .card{
+    display: block;
+    margin-right: 2rem;
+}
+.wrapper main  .container  h1{
+    color: black !important;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 3rem;
+    font-family: 'Oswald', sans-serif;
+}
+.wrapper main  .container .row .col-6 .card{
+    box-shadow: 0px 0px 8px -2px rgba(0, 0, 0, 0.15);
+    color: rgba(0, 0, 0, 0.4);
+}
+.wrapper main  .container .row .col-6 .card .card-body {
+    text-align: center;
+}
+.wrapper main  .container .row .col-6 .card .card-body h1{
+    font-weight: 700;
+    color: #cc0008 !important;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin: auto;
+    margin-bottom: 1.5rem;
+}
+.wrapper main  .container .text-slider h1{
+    margin-top: 1rem;
+    color: black !important;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+}
+.wrapper main  .container .text h1{
+    margin-top: 4rem;
+    color: black !important;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 34px;
+    margin-bottom: 4rem;
+    font-family: 'Oswald', sans-serif;
+}
+.wrapper main  .container .row .col-6{
+    margin-bottom: 1rem;
+}
+.wrapper main  .container .row .col-4{
+    margin-bottom: 1rem;
+}
+/* .wrapper main  .container .row .col-2 .card img{
+
+} */
+.wrapper main  .container .row .col-2 .card {
+    padding: 17px;
+    text-align: center;
+    justify-content: center;
+    margin: 0px;
+    width: 97%;
+    height: 84%;
+}
+footer .topfotter .container .row .col-3{
+    color: black;
+}
+footer  .topfotter .container .row .col-3 h1{
+    color: red;
+    font-size: 20px;
+}
+footer .topfotter .container .row .col-3 ul li{
+
+    list-style: none;
+}
+footer  .topfotter .container .row .col-3 ul li a{
+    text-decoration: none;
+    color:black;
+}
+footer  .topfotter .container .row .col-3 ul li :hover{
+color: red;
+}
+footer .bottomfotter{
+    background-color: red;
+    color: black;
+    text-align: center;
+}
+#all-container .container .container form .row .col-9{
+    width: auto;
+}
+main #all-container #last-container .row{
+justify-content: center;
+}
+footer  .topfotter .container .row .col-3 ul{
+    margin: auto;
+    padding: 0px;
+}
+.bottomheader .row .col-9 .navbar navbar-expand-lg navbar-light{
+    justify-content: end;
+}
+.bottomheader .row .col-9 .navbar navbar-expand-lg navbar-light .navbar-toggler{
+    background-color: white;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.form-check-input:checked{
+    background-color: red;
+}
+.form-check-input[type=checkbox]{
+    border-radius: 0px;
+}
+main #all-container #tab-section{
+    box-shadow: 0px 0px 8px -2px rgba(0, 0, 0, 0.15);
+} 
+.wrapper main .container .slider .card:hover{
+    border: 1px solid #cc0008;
+}
+main #all-container #last-container .end-text h3{
+    color: black;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    margin-bottom: 3rem;
+    margin-top: 6rem;
+    letter-spacing: 1px;
+    font-size: 36px;
+    font-weight: 600;
+}
+.wrapper footer .topfotter{
+    background-color: #f9f9f9;
+}
+.wrapper footer .bottomfotter{
+    background-color: #cc0008;
+    color: white;
+    overflow: hidden;
+}
+.wrapper footer .bottomfotter h1{
+    font-size: 13px;
+    margin: auto;
+    margin-block: 9px;
+}
+main #last-container .row .col-2 .card .img{
+    vertical-align: middle;
+    width: fit-content;
+    margin: auto;
+    padding: 0px;
+}
+footer .topfotter .container .row{
+    margin-top: 9rem;
+}
+main #last-container .row .col-2{
+    box-shadow: 0px 0px 8px -2px rgba(0, 0, 0, 0.15);
+}
+footer .topfotter .container .row .col-3 ul{
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+footer .topfotter .container .row .col-3 p{
+    font-size: 14px;
+}
+footer .topfotter .container .row .col-3 a{
+    text-decoration: none;
+}
+main #all-container #last-container .row .col-2 {
+    width: auto;
+}

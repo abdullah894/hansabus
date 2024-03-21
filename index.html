@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.3.1-dist/bootstrap-5.3.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-5.3.1-dist/bootstrap-5.3.1-dist/js/bootstrap.js">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="slick.css">
+    <link rel="stylesheet" href="slick-theme.css">
+    <link rel="stylesheet" href="slick.js">
+    <link rel="stylesheet" href="mediaquries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="banner">
+            <div class="container">
+                <div class="header">
+                    <div class="topheader">
+                        <div class="row">
+                            <div class="col-9">
+                                <b>Welcome to HansaBus</b>
+                            </div>
+                            <div class="col-3">
+                                <input type="text" placeholder="Search here...">
+                                <button><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="1em"
+                                            viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                            <path
+                                                d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
+                                        </svg></a></button>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="bottomheader">
+                        <div class="row">
+                            <div class="col-3">
+                                <a href="#"><img src="images/logo.png" alt="Logo"></a>
+                            </div>
+                            <div class="col-9">
+                                <nav class="navbar navbar-expand-lg navbar-light ">
+                                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                        data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"
+                                        aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                                        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                                            <li class="nav-item ">
+                                                <a class="nav-link" href="#">Zuhause<span class="sr-only"></span></a>
+                                            </li>
+                                            <li class="nav-item ">
+                                                <a class="nav-link" href="#">Uber uns<span class="sr-only"></span></a>
+                                            </li>
+                                            <li class="nav-item ">
+                                                <a class="nav-link" href="#">Uber uns<span class="sr-only"></span></a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Datenschutzerklarung</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link " href="#">Imperssum</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link " href="#">kontakt</a>
+                                            </li>
+                                            <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"
+                                                    role="button" aria-expanded="false">
+                                                    Deutsch
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">English</a></li>
+                                                    <li><a class="dropdown-item" href="#">Deutsch</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="banner-text">
+                        <h1>Wir bieten Ihnen die größte Auswahl an Reisemöglichkeiten auf Tausenden von Routen.</h1>
+                        <h3>Wo würdest du gerne hingehen?</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <main>
+            <div class="container" id="all-container">
+                <div class="container" id="tab-section">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-6" id="oneclick">
+                                <li>Hen</li>
+                            </div>
+                            <div class="col-6" id="oneclick">
+                                <li>Hen and Back</li>
+                            </div>
+                        </div>
+                        <form>
+                            <div class="row">
+                                <div class=" col-4">
+                                    <i class="fa-light fa-location-question"></i>
+                                    <input type="text" id="inputdefault" placeholder="Von">
+                                </div>
+                                <div class="col-4">
+                                    <i class="fa-sharp fa-light fa-location-check"></i>
+                                    <input type="text" id="inputdefault" placeholder="Von">
+                                </div>
+                                <div class="col-4">
+                                    <i class="fa-thin fa-user"></i>
+                                    <input type="text" id="inputdefault" placeholder="Von">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4">
+                                    <i class="fa-thin fa-envelope"></i>
+                                    <input type="email" placeholder="Email">
+                                </div>
+                                <div class="col-4">
+                                    <i class="fa-sharp fa-light fa-location-check"></i>
+                                    <input type="text" id="inputdefault" placeholder="Zu">
+                                </div>
+                                <div class="col-4">
+                                    <i class="fa-thin fa-user"></i>
+                                    <input type="text" id="inputdefault" placeholder="Von">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <i class="fa-thin fa-user-group"></i>
+                                    <input type="text" placeholder="Sitze">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <i class="fa-thin fa-envelope"></i>
+                                    <input type="text" id="inputlg" placeholder="Sitze">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-9">
+                                    <input class="form-check-input" type="checkbox" value="">
+                                    <label class="form-check-label" for="flexCheckChecked">
+                                        Ich habe die gelesen und akzeptiere sie <strong>Datenschutzerklaerung</strong>
+                                        und
+                                        <strong>HansaBus</strong> turistik
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-5">
+                                    <button type="submit" class="btn mb-3">Mache eine Anfrage</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <h1>Lej din egen bus med chaufføren</h1>
+                <div class="container " id="card-container">
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="card" style="width: auto;">
+                                <img class="card-img-top" src="images/service1.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <p class="card-text">Flexible Online-Buchung</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card" style="width: auto;">
+                                <img class="card-img-top" src="images/service2.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <p class="card-text">Sichere und moderne Busse</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card" style="width: auto;">
+                                <img class="card-img-top" src="images/service3.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <p class="card-text">Sichere und moderne Busse</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card" style="width: auto;">
+                                <img class="card-img-top" src="images/service4.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <p class="card-text">Kostenlos stornieren</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card" style="width: auto;">
+                                <img  class="card-img-top" src="images/service5.png"
+                                    alt="Card image cap">
+                                <div class="card-body">
+                                    <p class="card-text">Sichere und moderne Busse</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card" style="width: auto;">
+                                <img class="card-img-top" src="images/service6.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <p class="card-text">Flexible Online-Buchung</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="container-fluid">
+                    <div class="container">
+                        <h1>
+                            HansaBus alles aus einer Hand
+                        </h1>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="text-slider">
+                        <h1>Lej din egen bus med chaufføren</h1>
+                    </div>
+                    <div class="container" id="slider-container">
+                        <div class="slider">
+                            <div class="card" id="card-1" style="width: auto;">
+                                <img class="card-img-top" src="images/bus1.jpg" alt="Card image cap">
+                            </div>
+                            <div class="card" id="card-2" style="width: auto;">
+                                <img class="card-img-top" src="images/bus2.jpg" alt="Card image cap">
+                            </div>
+                            <div class="card" id="card-3" style="width: auto;">
+                                <img class="card-img-top" src="images/bus3.jpg" alt="Card image cap">
+                            </div>
+                            <div class="card" id="card-4" style="width: auto;">
+                                <img class="card-img-top" src="images/bus4.jpg" alt="Card image cap">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="text">
+                        <h1>8 grunde til, at vi vil inspirere dig</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="card" style="width: auto;">
+                                <div class="card-body">
+                                    <h1>SICHERHEIT</h1>
+                                    <p class="card-text">Sicherheit zuerst. Immer! Dies gilt sowohl für unsere
+                                        Fahrzeuge
+                                        als auch für unsere Fahrer. Deshalb setzen wir auf modernste Busse und
+                                        erstklassig geschultes Personal.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card" style="width: auto;">
+                                <div class="card-body">
+                                    <h1>VOLLE KONTROLLE</h1>
+                                    <p class="card-text">In unserem Kundenportal können Sie jederzeit online die
+                                        wichtigsten Informationen zu Ihrer Reise abrufen, z. B. Kontaktdaten des
+                                        Fahrers einsehen und Ihren Bus live verfolgen.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card" style="width: auto;">
+                                <div class="card-body">
+                                    <h1>VERFÜGBARKEIT</h1>
+                                    <p class="card-text">Bei HansaBus müssen Sie sich keine Gedanken machen, ob
+                                        ein passendes Fahrzeug zu Ihrem Wunschtermin verfügbar ist. Mit mehr als
+                                        100 Bussen haben wir immer das Richtige für Sie. Auch kurzfristig.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card" style="width: auto;">
+                                <div class="card-body">
+                                    <h1>FLEXIBILITÄT</h1>
+                                    <p class="card-text">Wenn Sie uns am meisten brauchen, sind wir für Sie
+                                        da. Deshalb bietet HansaBus einen Last-Minute-Charter an. Innerhalb
+                                        Berlins stellen wir Ihnen innerhalb von 100 Minuten einen Bus zur
+                                        Verfügung – 24 Stunden am Tag, sieben Tage die Woche.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card" style="width: auto;">
+                                <div class="card-body">
+                                    <h1>ERFAHRUNG</h1>
+                                    <p class="card-text">Exzellenter Service ist ähnlich wie ein guter
+                                        Wein: Die Qualität wächst mit der Reife. Mit 49 Jahren Erfahrung
+                                        bietet Ihnen HansaBus einen Service, der in der Branche
+                                        seinesgleichen sucht.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card" style="width: auto;">
+                                <div class="card-body">
+                                    <h1>PREIS LEISTUNGS VERHÄLTNIS</h1>
+                                    <p class="card-text">Natürlich gibt es günstigere Anbieter als
+                                        HansaBus. Aber kaum einer, der besser für dich ist. Denn bei
+                                        uns erhalten Sie maximalen Service zu fairen Preisen. Am
+                                        Ende einer Reise wissen Sie, dass sich Ihre Wahl ausgezahlt
+                                        hat.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card" style="width: auto;">
+                                <div class="card-body">
+                                    <h1>UMWELTFREUNDLICHKEIT</h1>
+                                    <p class="card-text">Busreisen sind in Bezug auf den
+                                        Pro-Kopf-Kraftstoffverbrauch die energieeffizienteste
+                                        Art des Reisens. Mit dem Einsatz modernster,
+                                        emissionsarmer Fahrzeuge leistet HansaBus einen
+                                        zusätzlichen Beitrag zum Umweltschutz.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card" style="width: auto;">
+                                <div class="card-body">
+                                    <h1>KOMFORT</h1>
+                                    <p class="card-text">Der Komfort wird nicht nur an der
+                                        Qualität unserer Fahrzeuge gemessen. Es geht darum,
+                                        sich um so wenig wie möglich zu kümmern und sich um
+                                        nichts kümmern zu müssen. Lehne Dich zurück und
+                                        entspanne. Wir werden den Rest erledigen.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container" id="last-container">
+                    <div class="end-text">
+                        <h3>Vores kunder og partnere</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-2">
+                            <div class="card">
+                                <img class="img" src="images/sponser1.png" alt="Card image cap">
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="card">
+                                <img class="img" src="images/sponser2.png" alt="Card image cap">
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="card">
+                                <img class="img" src="images/sponser3.png" alt="Card image cap">
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="card">
+                                <img class="img" src="images/sponser4.png" alt="Card image cap">
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="card">
+                                <img class="img" src="images/sponser5.png" alt="Card image cap">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="topfotter">
+                <div class="container">
+                <div class="row">
+                    <div class="col-3">
+                       <a href="#"><img src="images/footer-logo.png" alt="Logo" class="img"></a>
+                        <p>HansaBus ist der weltweite Busservice, dem weltweit über 8 Millionen zufriedene Kunden
+                            vertrauen. HansaBus bietet über seine Website die Buchung von Bustickets für alle wichtigen
+                            Strecken in Dänemark an.</p>
+                    </div>
+                    <div class="col-3">
+                        <h1>Dienstleistungen</h1>
+                        <ul>
+                            <li><a href="#">Bus Charter</a></li>
+                            <li><a href="#">Besichtigung</a></li>
+                            <li><a href="#">Tourismus</a></li>
+                            <li><a href="#">Buslogistik</a></li>
+                            <li><a href="#">Bus Branding</a></li>
+                            <li><a href="#">Limousine Service</a></li>
+                            <li><a href="#">Guides&Hostessen</a></li>
+                            <li><a href="#">Tour der Lichter 2016</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-3">
+<h1>Information</h1>
+<ul>
+    <li><a href="#">Datenschutzerklarung</a></li>
+    <li><a href="#">kontakt</a></li>
+    <li><a href="#">Imperssum</a></li>
+</ul>
+                    </div>
+                    <div class="col-3">
+                        <h1>Kontakt mit uns</h1>
+                        <ul>
+                            <li><i class="fa-solid fa-phone">(+49)040/521 580 81</i></li>
+                            <li><i class="fa-duotone fa-phone-office">(+49)040/521 580 82</i></li>
+                            <li><i class="fa-solid fa-mobile">(+49)0713/94 80 246</i></li>
+                            <li><i class="fa-solid fa-location-dot">Genrichtsstand:lubeck
+                                GF:Timor Alizada
+                                HRA:9206
+                                HRA:9206
+                                St.-Nr.:30/001/06020
+                                USt.ID:DE256517113
+                            </i><i class="fa-solid fa-envelope">timor@hansabus.com</i></li>
+                            <li><i class="fa-solid fa-clock">Offnungszeiten:Montag - Freitag
+                                09:30Uhr - 18:00 Uhr
+                            </i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="bottomfotter">
+                <h1>@2022 HansaBus</h1>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="slick.js"></script>
+<script type="text/javascript">
+    $('.slider').slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 3
+});
+</script>
+<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+</html>
